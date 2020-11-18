@@ -17,13 +17,61 @@
           </div>
           <ul class="nav navbar-nav">
             <li class="active"><a href="Főoldal.html">Főoldal</a></li>
-            <li><a href="forras.html">forras</a></li>
+            <li><a href="forras.html">Forrasok</a></li>
             <li><a href="pontozo.html">Pontozo</a></li>
           </ul>
         </div>
       </nav>
-      
-     
+        <table class="tg">
+          <colgroup>
+          <col style="width: 100px">
+          <col style="width: 60px">
+          <col style="width: 60px">
+          <col style="width: 60px">
+          <col style="width: 60px">
+          <col style="width: 60px">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="tg-c3ow">Osztályzatok</th>
+              <th class="tg-c3ow">5</th>
+              <th class="tg-c3ow">4</th>
+              <th class="tg-c3ow">3</th>
+              <th class="tg-c3ow">2</th>
+              <th class="tg-baqh">1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0pky">Ponthatár</td>
+              <td class="tg-c3ow">(40-31)</td>
+              <td class="tg-c3ow">(30-25)</td>
+              <td class="tg-c3ow">(24-19)</td>
+              <td class="tg-c3ow">(18-13)</td>
+              <td class="tg-baqh">(12-0)</td>
+            </tr>
+          </tbody>
+          </table>
+      <div id="main">
+        <div id="head"><h3>Pontozólap</h3></div>
+        <label>Feladatmegértés:</label><input type="text" id="elso"><br>
+        <label>Tájékozódás térben és időben:</label><input type="text" id="masodik"> <br>
+        <label>Kommunikáció, a szaknyelv alkalmazása:</label><input type="text" id="harmadik"><br>
+        <label>Ismeretszerzés, a források használata:</label><input type="text" id="negyedik"><br>
+        <br>
+        <button class="btn1" onclick="osszeg()">Összes pontszám</button>
+        <button class="btn2" onclick="jegy()">Érdemjegy</button>
+    </div>
+    <div id="eredmeny">
+        <div id="head1"><h3>Összes pontszám</h3></div>
+        <div id="osszeg">
+    
+        </div>
+        <div id="head2"><h3>Érdemjegy</h3></div>
+        <div id="jegy">
+            
+        </div>
+    </div>
 
 </body>
 <script src="javascript.js"></script>
